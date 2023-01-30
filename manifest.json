@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "UMD Calorie Tracker",
+  "description": "",
+  "version": "5.0.1",
+  "icons": {
+    "16": "icon/icon-16.png",
+    "32": "icon/icon-32.png",
+    "48": "icon/icon-48.png",
+    "128": "icon/icon-128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "icon/icon-19.png",
+      "38": "icon/icon-38.png"
+    },
+    "default_title": "Better Canvas"
+  },
+  "options_page": "html/options.html",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://nutrition.umd.edu/*"
+      ],
+      "js": [
+        "js/content.js"
+      ],
+      "css": [
+        "css/content.css"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "storage"
+  ],
+  "web_accessible_resources": [{
+    "resources": ["js/nutrition.json"],
+    "matches": ["<all_urls>"]
+}]
+}
