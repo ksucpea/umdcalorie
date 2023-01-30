@@ -1,5 +1,5 @@
 <h1>UMD Calorie tracker</h2>
-Calorie tracking using the nutrition.umd.edu menu, tracks calories, fat, cholesterol, sopdium, carbs, sugar, protein, calcium, potassium, vitaminc c, and iron
+Calorie tracking using the nutrition.umd.edu menu, tracks calories, fat, cholesterol, sopdium, carbs, sugar, protein, calcium, potassium, vitamin c, and iron
 <h2>Manual Installation</h2>
 
 - Download this repo
