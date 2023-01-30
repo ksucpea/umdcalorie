@@ -1,5 +1,5 @@
 <h1>UMD Calorie tracker</h2>
-
+Calorie tracking using the nutrition.umd.edu menu, tracks calories, fat, cholesterol
 <h2>Manual Installation</h2>
 
 - Download this repo
@@ -16,5 +16,5 @@
 <p>Foods added will show up in the Today box</p>
 <img src="https://github.com/ksucpea/umdcalorie/blob/main/icon/today.png" height="250px"/>
 
-<p>View total nutritional info by going to the options page of the extension (right click the extension and press options)</p>
+<p>View total nutritional info by going to the options page of the extension (right click the extension and press options) Daily recommended value is met if the total is green, otherwise it will be red</p>
 <img src="https://github.com/ksucpea/umdcalorie/blob/main/icon/calendar.png" />
