@@ -1,6 +1,7 @@
 <h1>UMD Calorie tracker</h2>
 
 <h2>Manual Installation</h2>
+
 - Download this repo
 
 - Go to chrome://extensions in the browser and enable developer mode
