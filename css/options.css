@@ -25,3 +25,7 @@ button:active {filter:brightness(85%)}
 .message p {margin: 10px 40px 10px 0px}
 .text p {margin: 0;margin-bottom: 10px;height:16px;}
 .text {margin-left: 6px;}
+.weight-point {background: blue; width: 5px; height: 5px; position: absolute;border-radius: 6px;}
+.weight-graph {padding: 5px;position: relative; height: 300px; width: 500px;border: 1px solid #ccc}
+.weight-graph-container {display: flex;}
+.weight-graph-side {display: flex;flex-direction: column;justify-content: space-between;}

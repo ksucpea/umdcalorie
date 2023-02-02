@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-
+<head>
+    <link rel="stylesheet" href="../css/options.css" />
+</head>
 <html>
     <body>
         <div class="main">
@@ -9,6 +11,17 @@
                 <button id="date-forward">next day</button>
             </div>
             <div class="table"></div>
+            <div class="weight">
+                <input type="number" placeholder="weight" id="lbs"></input>
+                <button id="weight-enter">Enter</button>
+            </div>
+            <div class="weight-graph-container">
+                <div class="weight-graph-side"><p id="top"></p><p id="bottom"></p></div>
+                <div class="weight-graph-with-bottom">
+                    <div class="weight-graph"></div>
+                    <div class="weight-graph-bottom"></div>
+                </div>
+            </div>
         </div>
     </body>
     <script src="../js/options.js"></script>
