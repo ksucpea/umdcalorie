@@ -52,3 +52,12 @@ p {
     font-weight: bold;
     cursor: pointer;
 }
+
+.low-ratio {
+    padding: 3px;
+    margin: 4px 0;
+}
+
+.low-ratio-cholesterol {background: red}
+.low-ratio-sodium {background: orange}
+.low-ratio-carbs {background: yellow}

@@ -35,7 +35,7 @@
     "storage"
   ],
   "web_accessible_resources": [{
-    "resources": ["js/nutrition.json"],
+    "resources": ["js/existing.json"],
     "matches": ["<all_urls>"]
 }]
 }
